@@ -3,10 +3,6 @@
 #include <math.h>
 #include <omp.h>
 
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
-
 double pi_sequential(long long n) {
     double sum = 0.0;
     for (long long i = 0; i < n; i++) {
